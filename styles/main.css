@@ -2,3 +2,51 @@
 verde claro: #b8e986
 verde no tan claro: #417505
 */
+body {
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    background-color: honeydew;
+    height: 100vh;
+    padding: 20px;
+}
+.title {
+    margin: 0;
+}
+
+.input {
+   margin-top: 40px;
+    width: 40%;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.btn {
+    font-size: 16px;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: forestgreen;
+    color: white;
+    cursor: pointer;
+}
+.user_name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+}
+
+.letter {
+    font-size: 80px;
+    text-transform: uppercase;
+    background-color: white;
+    height: 150px;
+    line-height: 150px;
+    margin: 50px 10px;
+    border: 1px solid black;
+    text-align: center;
+    width: 100px;
+}
