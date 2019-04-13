@@ -1,7 +1,4 @@
-/*
-verde claro: #b8e986
-verde no tan claro: #417505
-*/
+
 body {
     margin: 0;
     padding: 0;
@@ -13,6 +10,7 @@ body {
 }
 .title {
     margin: 0;
+    font-size: 20px;
 }
 
 .input {
@@ -40,7 +38,7 @@ body {
 }
 
 .letter {
-    font-size: 80px;
+    font-size: 60px;
     text-transform: uppercase;
     background-color: white;
     height: 150px;
@@ -49,4 +47,5 @@ body {
     border: 1px solid black;
     text-align: center;
     width: 100px;
+    flex-grow: 1;
 }
